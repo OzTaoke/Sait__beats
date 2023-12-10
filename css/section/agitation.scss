@@ -1,0 +1,60 @@
+.agitation {
+    padding-bottom: 97px;
+    position: relative;
+    &:after {
+        content: url(../../image/agitation.png);
+        position: absolute;
+        left: 500px;
+        bottom: -25px;
+    }
+}
+.agitation__main {
+    padding-top: 101px;
+    margin-bottom: 62px;
+}
+.agitation__main-title {
+    margin-bottom: 18px;
+}
+.agitation__main-text {
+    margin: 0 auto;
+    text-align: center;
+    max-width: 60%;
+}
+.agitation__block {
+    display: flex;
+    justify-content: space-between;
+}
+.agitation__item {
+    text-align: center;
+    margin-right: 70px;
+    &:last-child {
+        margin-right: 0;
+    }
+}
+.agitation__icon {
+    margin: 0 auto;
+    margin-bottom: 24px;
+    width: 128px;
+    height: 128px;
+    background: #F2F5F4;
+    border-radius: 50%;
+    position: relative;
+}
+.agitation__icon-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.agitation__content {
+    max-width: 250px;
+}
+.agitation__item-title {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.agitation__item-text p{
+    color: #666666;
+}

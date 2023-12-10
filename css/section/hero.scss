@@ -1,0 +1,63 @@
+.hero {
+    background: url(../../image/headphones.png) bottom 50% right 35% no-repeat, #F5F5F5;
+    position: relative;
+    &:after {
+        content: url(../../image/hero.png);
+        position: absolute;
+        right: 500px;
+        bottom: -25px;
+    }
+}
+.hero__content {
+    padding-bottom: 50px;
+}
+.hero__main {
+    max-width: 40%;
+    margin-bottom: 85px;  
+}
+.hero__main-title {
+    text-align: left;
+    margin-bottom: 22px;
+    line-height: 1.1;
+}
+.hero__main-text {
+    font-family: 'Alegreya Sans', sans-serif;
+    max-width: 90%;
+    font-size: 21px;
+    margin-bottom: 56px;
+}
+.hero__dots {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    right: 20%;
+    top: 35%;
+}
+.hero__dots-item {
+    width: 18px;
+    height: 18px;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    position:relative;
+    margin-bottom: 5px;
+    &:last-child {
+        margin-bottom: 0;
+    }
+    &:after {
+        content: '';
+        width: 6px;
+        height: 6px;
+        position: absolute;
+        background: rgba(41, 41, 41, .6);
+        border-radius: 50%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+.hero__dots-item--active:after {
+    background: #E01F3D;
+}
+.hero__dots-item--active {
+    border-color: #E01F3D;
+}

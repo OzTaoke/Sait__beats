@@ -1,0 +1,138 @@
+.delivery {
+  background: url(../../image/Untitled.png) center bottom no-repeat, #181818;
+  color: #fff;
+  padding-bottom: 85px;
+}
+
+.delivery__title {
+  color: inherit;
+  padding-top: 68px;
+  margin-bottom: 55px;
+}
+
+.delivery__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.delivery__column {
+  width: calc(50% - 13px);
+}
+
+.delivery__block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 10px;
+}
+.delivery__block:last-child {
+  margin-bottom: 0;
+}
+
+.delivery__item {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin-right: 16px;
+}
+.delivery__item:last-child {
+  margin-right: 0;
+}
+
+.delivery__item-title {
+  margin-bottom: 3px;
+}
+
+.delivery__item-input {
+  width: 100%;
+  height: 60px;
+  border: 3px transparent solid;
+  border-radius: 5px;
+}
+.delivery__item-input:focus {
+  border-color: #E01F3D;
+  outline: none;
+}
+
+.delivery__item-input--textarea {
+  width: 450px;
+  height: 150px;
+  resize: none;
+  margin-bottom: 20px;
+}
+
+.delivery__select {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-bottom: 16px;
+}
+.delivery__select:nth-child(3) {
+  margin-bottom: 47px;
+}
+
+.delivery__radio {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 18px;
+}
+.delivery__radio:last-child {
+  margin-right: 0;
+  margin-top: 5px;
+}
+
+.delivery__radio-input {
+  display: none;
+}
+.delivery__radio-input:checked ~ .delivery__radio-fake::after {
+  display: block;
+}
+
+.delivery__radio-fake {
+  width: 25px;
+  height: 25px;
+  background: #fff;
+  border-radius: 50%;
+  margin-right: 10px;
+  position: relative;
+}
+.delivery__radio-fake::after {
+  content: "";
+  width: 13px;
+  height: 13px;
+  background: #E01F3D;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  display: none;
+}
+
+.delivery__radio--check .delivery__radio-fake {
+  border-radius: 5px;
+}
+.delivery__radio--check .delivery__radio-fake::after {
+  background: url(../../image/checkmark.png) center center no-repeat;
+}
+
+.delivery__button .button {
+  margin-right: 15px;
+}

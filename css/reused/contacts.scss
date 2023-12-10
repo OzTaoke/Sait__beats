@@ -1,0 +1,7 @@
+.contacts {
+    font-size: 18px;
+    &:before {
+        content: url(../../image/phone.png);
+        margin-right: 5px;
+    }
+}
