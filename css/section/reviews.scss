@@ -1,6 +1,9 @@
 .reviews {
     padding-bottom: 63px;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     &:after {
         content: url(../../image/reviews.png);
         position: absolute;

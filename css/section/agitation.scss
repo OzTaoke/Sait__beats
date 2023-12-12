@@ -1,6 +1,9 @@
 .agitation {
     padding-bottom: 97px;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     &:after {
         content: url(../../image/agitation.png);
         position: absolute;

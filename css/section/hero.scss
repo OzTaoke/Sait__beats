@@ -1,6 +1,9 @@
 .hero {
     background: url(../../image/headphones.png) bottom 50% right 35% no-repeat, #F5F5F5;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     &:after {
         content: url(../../image/hero.png);
         position: absolute;

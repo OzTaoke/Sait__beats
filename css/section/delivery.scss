@@ -2,6 +2,9 @@
     background: url(../../image/Untitled.png) center bottom no-repeat, #181818;
     color: #fff;
     padding-bottom: 85px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .delivery__title {
     color: inherit;
