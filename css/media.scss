@@ -75,8 +75,11 @@
     }
 }
 @media (max-width: 480px) {
+    html {
+        font-size: 14px;
+    }
     .section {
-        max-height: 90vh;
+        max-height: 95vh;
     }
     .title {
         font-size: 2rem;
@@ -122,10 +125,10 @@
         justify-content: center;
     }
     .map {
-        height: 60vh;
+        height: 50vh;
     }
     .map__image {
-        height: 60vh;
+        height: 50vh;
     }
     .footer {
         flex-direction: column;
