@@ -98,7 +98,7 @@
     font-size: 14px;
   }
   .section {
-    max-height: 95vh;
+    height: 95vh;
   }
   .title {
     font-size: 2rem;
@@ -145,7 +145,7 @@
   .agitation__icon {
     margin-right: 1rem;
   }
-  .revoews__select-item {
+  .reviews__select-item {
     width: 4rem;
   }
   .delivery__column {
@@ -172,5 +172,10 @@
   }
   .footer__addres, .footer__contacts {
     margin-bottom: 1rem;
+  }
+}
+@media (max-width: 320px) {
+  .html {
+    font-size: 10px;
   }
 }

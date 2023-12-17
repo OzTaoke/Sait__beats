@@ -11,10 +11,12 @@
 .reviews__conteiner {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 .reviews__title {
-    padding-top: 4.2rem;
     margin-bottom: 2rem;
 }
 .reviews__content {
@@ -22,10 +24,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2.7rem;
+    padding: 2rem;
     margin-bottom: 1rem;
 }
 .reviews__feedback {
+    display: flex;
+    flex-direction: column;
     padding: 2rem 3.7rem 1.3rem 2.5rem;
 }
 .reviews__feedback-title {
@@ -45,17 +49,18 @@
     display: flex;
     justify-content: center;
 }
-.revoews__select-item {
+.reviews__select-item {
     cursor: pointer;
     width: 4.6rem;
+    border: 0.25rem solid transparent;
+    border-radius: 50%;
     margin-right: 0.4rem;
     &:last-child {
         margin-right: 0;
     }
 }
 .revoews__select-item--active {
-    border: 0.25rem solid #E01F3D;
-    border-radius: 50%;
+    border-color: #E01F3D;
 }
 .reviews__select-image {
     width: 100%;

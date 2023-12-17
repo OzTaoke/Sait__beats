@@ -1,7 +1,3 @@
-.contacts {
+.contacts__number {
   font-size: 1.1rem;
-}
-.contacts:before {
-  content: url(../../image/phone.png);
-  margin-right: 0.2rem;
 }
