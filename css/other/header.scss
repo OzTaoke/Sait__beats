@@ -1,10 +1,12 @@
 .header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 24px 28px 200px 0;
+    align-items: flex-start;
+    padding-top: 1.1rem;
 }
-.header__logo {
-    margin-right: -10px;
-
+.header__icon {
+    fill: black;
+}
+.header__contacts {
+    padding-top: 1rem;
 }

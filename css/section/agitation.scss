@@ -1,22 +1,25 @@
 .agitation {
-    padding-bottom: 97px;
+    padding-bottom: 6rem;
     position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     &:after {
         content: url(../../image/agitation.png);
         position: absolute;
-        left: 500px;
-        bottom: -25px;
+        left: 10%;
+        bottom: -2%;
     }
 }
+.agitation__conteiner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
 .agitation__main {
-    padding-top: 101px;
-    margin-bottom: 62px;
+    padding-top: 6rem;
+    margin-bottom: 3.8rem;
 }
 .agitation__main-title {
-    margin-bottom: 18px;
+    margin-bottom: 1.1rem;
 }
 .agitation__main-text {
     margin: 0 auto;
@@ -29,16 +32,13 @@
 }
 .agitation__item {
     text-align: center;
-    margin-right: 70px;
-    &:last-child {
-        margin-right: 0;
-    }
+    width: calc(100% / 3 - 2rem);
 }
 .agitation__icon {
     margin: 0 auto;
-    margin-bottom: 24px;
-    width: 128px;
-    height: 128px;
+    margin-bottom: 1.5rem;
+    width: 8rem;
+    height: 8rem;
     background: #F2F5F4;
     border-radius: 50%;
     position: relative;
@@ -50,14 +50,12 @@
     transform: translate(-50%, -50%);
 
 }
-.agitation__content {
-    max-width: 250px;
-}
 .agitation__item-title {
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 700;
-    margin-bottom: 10px;
+    margin-bottom: 0.6rem;
 }
-.agitation__item-text p{
+.agitation__item-text {
     color: #666666;
+    padding: 0 1rem 0 1rem;
 }
