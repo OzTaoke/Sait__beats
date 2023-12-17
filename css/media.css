@@ -94,6 +94,9 @@
   }
 }
 @media (max-width: 480px) {
+  .section {
+    max-height: 90vh;
+  }
   .title {
     font-size: 2rem;
   }
@@ -103,7 +106,7 @@
   }
   .hero__main {
     max-width: 90%;
-    margin-bottom: 20%;
+    margin-bottom: 10%;
   }
   .agitation__main-text {
     max-width: 95%;
