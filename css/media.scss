@@ -79,7 +79,8 @@
         font-size: 14px;
     }
     .section {
-        height: 95vh;
+        min-height: 800px;
+        height: 100%;
     }
     .title {
         font-size: 2rem;
@@ -90,7 +91,7 @@
     }
     .hero__main {
         max-width: 90%;
-        margin-bottom: 10%;
+        padding-top: 25rem;
     }
     .agitation__main-text {
         max-width: 95%;
@@ -125,7 +126,8 @@
         justify-content: center;
     }
     .map {
-        height: 50vh;
+        min-height: 400px;
+        height: 50%;
     }
     .map__image {
         height: 50vh;
@@ -133,7 +135,7 @@
     .footer {
         flex-direction: column;
         text-align: center;
-        height: 20vh;
+        height: 20%;
     }
     .footer__addres, .footer__contacts  {
         margin-bottom: 1rem;
