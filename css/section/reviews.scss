@@ -1,4 +1,5 @@
 .reviews {
+    display: flex;
     padding-bottom: 4rem;
     position: relative;
     &:after {
@@ -22,7 +23,7 @@
 .reviews__content {
     background: #F8FAF9;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding: 2rem;
     margin-bottom: 1rem;

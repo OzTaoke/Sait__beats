@@ -1,12 +1,6 @@
 .agitation {
     padding-bottom: 6rem;
     position: relative;
-    &:after {
-        content: url(../../image/agitation.png);
-        position: absolute;
-        left: 10%;
-        bottom: -2%;
-    }
 }
 .agitation__conteiner {
     display: flex;
@@ -32,6 +26,16 @@
 .agitation__item {
     text-align: center;
     width: calc(100% / 3 - 2rem);
+    position: relative;
+    &:before {
+        content: url(../../image/Combined\ shape\ 2204.png);
+        position: absolute;
+        left: -20%;
+        top: 20%;
+    }
+    &:first-child::before {
+        content: '';
+    }
 }
 .agitation__icon {
     margin: 0 auto;

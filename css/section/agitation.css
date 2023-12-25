@@ -2,12 +2,6 @@
   padding-bottom: 6rem;
   position: relative;
 }
-.agitation:after {
-  content: url(../../image/agitation.png);
-  position: absolute;
-  left: 10%;
-  bottom: -2%;
-}
 
 .agitation__conteiner {
   display: -webkit-box;
@@ -49,6 +43,16 @@
 .agitation__item {
   text-align: center;
   width: calc(33.3333333333% - 2rem);
+  position: relative;
+}
+.agitation__item:before {
+  content: url(../../image/Combined\ shape\ 2204.png);
+  position: absolute;
+  left: -20%;
+  top: 20%;
+}
+.agitation__item:first-child::before {
+  content: "";
 }
 
 .agitation__icon {
