@@ -61,8 +61,10 @@
             justify-content: center;
   }
   .slider__item {
-    height: 50%;
+    height: 60%;
+    width: 60%;
     margin: 0 auto;
+    margin-bottom: 1rem;
   }
   .slider__image {
     width: 100%;
@@ -75,18 +77,46 @@
     display: none;
   }
   .slider__content {
-    width: 90%;
+    max-width: 90%;
     text-align: center;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+  }
+  .team__block {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .team__item {
+    width: 100%;
+  }
+  .team__photo {
+    height: 0;
+    overflow: hidden;
+  }
+  .team__accordion {
+    position: static;
+  }
+  #accordion1:before {
+    content: url(../image/team1.png);
+  }
+  #accordion2:before {
+    content: url(../image/team2.png);
+  }
+  #accordion3:before {
+    content: url(../image/team3.png);
+  }
+  #accordion4:before {
+    content: url(../image/team4.png);
   }
   .reviews__conteiner {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
   }
-  .reviews__content {
+  .reviews__item {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;

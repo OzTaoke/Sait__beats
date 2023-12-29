@@ -178,6 +178,13 @@
 <path d="M6.81415 16.1908H13.6544V17.597H6.81415V16.1908Z"/>
 </symbol>
 
+<!-- team -->
+<symbol id="triangle" viewBox="0 0 9 7">
+<path d="M4.5 7L0.602887 0.249999L8.39711 0.25L4.5 7Z"/>
+</symbol>
+
+
+
 <!-- map -->
 <symbol id="map" viewBox="0 0 58 73">
     <g clip-path="url(#clip0_2_1191)">

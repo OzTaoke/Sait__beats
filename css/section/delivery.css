@@ -5,6 +5,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  position: relative;
 }
 
 .delivery__conteiner {
@@ -153,4 +154,8 @@
 
 .delivery__button .button {
   margin-right: 0.9rem;
+}
+
+.delivery__item-error {
+  color: #E01F3D;
 }

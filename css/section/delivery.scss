@@ -3,6 +3,7 @@
     color: #fff;
     padding-bottom: 5.3rem;
     display: flex;
+    position: relative;
 }
 .delivery__conteiner {
     display: flex;
@@ -113,4 +114,8 @@
     & .button {
         margin-right: 0.9rem;
     }
+}
+
+.delivery__item-error {
+    color: #E01F3D;
 }
