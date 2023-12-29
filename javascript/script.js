@@ -236,8 +236,10 @@ button.addEventListener('click', e => {
 
             if(form.elements.selectPay.value == 'surrender') {
                 pay = 'Нужна сдача';
-            } else {
+            } else  if(form.elements.selectPay.value == 'sendButton'){
                 pay = 'Оплата по карте';
+            } else {
+                pay = 'Оплата наличными без сдачи'
             };
 
             const data = {
